@@ -21,7 +21,6 @@ except:
     print("Could not load astropy.io.fits")
 
 PIXEL_SIZE = 0.5 # resolution of HR map in arcseconds
-fn_background = './data/haslam-cdelt0.031074-allsky.npy'
 src_density = 6 # per sq arcminute 
 NSIDE = 2304 # number of pixels per side for high res image
 FREQMIN, FREQMAX = 0.7, 2.0
